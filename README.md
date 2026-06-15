@@ -1,11 +1,24 @@
-# Reproduction of StyleTTS 2 in French
-### Siddharth Dixit, Javier Alonso Garcia, Louis Bruninx, Thomas van de Pavoordt
+# StyleTTS 2 — French Reproduction (TU Delft Deep Learning course)
 
-#### Based on [StyleTTS 2](https://github.com/yl4579/StyleTTS2) by Yinghao Aaron Li, Cong Han, Vinay S. Raghavan, Gavin Mischler, Nima Mesgarani
+A reproduction and French-language adaptation of **StyleTTS 2** (Li et al.), built as a
+team project for the Deep Learning course at TU Delft.
 
-> The purpose of this repo is to reproduce the results of the paper "StyleTTS 2: Towards Human-Level Text-to-Speech through Style Diffusion and Adversarial Training with Large Speech Language Models" in French. This is done for the Deep Learning course (CS4240) at TU Delft.
+**Team:** Siddharth Dixit, Javier Alonso Garcia, Louis Bruninx, Thomas van de Pavoordt
 
-**Blog post:** [https://lflbruninx.github.io/DeepLearningBlog/](https://lflbruninx.github.io/DeepLearningBlog/)
+**Original model:** [yl4579/StyleTTS2](https://github.com/yl4579/StyleTTS2)
+
+**Write-up & audio samples:** https://lflbruninx.github.io/DeepLearningBlog/
+
+## Goal
+Fine-tune the English-pretrained StyleTTS 2 model to synthesise natural-sounding
+**French** speech, and measure how close it gets to real recordings.
+
+## Results
+Evaluated with a **listener survey** (mean opinion score, MOS):
+- **Naturalness:** 3.46 (ours) vs 3.88 (ground-truth audio)
+- Similarity scores, preference tests, and audio samples are in the blog post above.
+
+---
 
 ## Pre-requisites
 1. Python >= 3.7
